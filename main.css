@@ -1,0 +1,39 @@
+
+head
+    {
+        background-color: lightseagreen;
+    }
+
+body 
+    {
+        background-color: lightgreen;
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+
+h1
+    {
+        color: black;
+        background-color: lightseagreen;
+        width: 30%
+    }
+
+nav> ol
+    {
+        line-height: 2em;
+        list-style-type: none;
+        padding-left: 20px;
+    }
+
+main
+    {
+        background-color: lightseagreen;
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+footer
+    {
+        background-color: lightseagreen;
+        width: 30%;
+    }
+
