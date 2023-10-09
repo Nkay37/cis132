@@ -1,39 +1,70 @@
-
-head
+*
     {
+        margin: 0;
+        padding: 0;
+    }
+body
+    {
+        width: 80%;
+        background-color: white;
+        margin: 10px auto;
         background-color: lightseagreen;
+       
     }
-
-body 
-    {
-        background-color: lightgreen;
-        font-family: "Lucida Console", "Courier New", monospace;
-    }
-
 h1
     {
-        color: black;
-        background-color: lightseagreen;
-        width: 30%
+        padding: 1em;
     }
-
-nav> ol
+h2
     {
-        line-height: 2em;
+        padding: 1em;
+    }
+header
+    {
+        text-align: center;
+        background-color: plum;
+    }
+#nav_menu ol
+    {
         list-style-type: none;
-        padding-left: 20px;
+        padding: 1em 0;
+        text-align: center;
+        background-color: aquamarine;
+        color: white;
+    
     }
-
-main
+#nav_menu ol li
     {
-        background-color: lightseagreen;
-        width: 100%;
-        font-size: 1.2em;
+        display: inline;
+        padding: 0 2em;
     }
-
+#nav_menu ol li a.current
+    {
+        text-decoration: none;
+    }
+main   
+    {
+        height: 360px;
+        width: 65%;
+        float: left;
+       background-color: plum;
+        text-align: center;
+    }
+aside
+    {
+        height: 360px;
+        width: 33%;
+        float: right;
+        text-align: left;
+        background-color: aquamarine;
+        color: black;
+    }
 footer
     {
-        background-color: lightseagreen;
-        width: 30%;
+        clear: both;
+       
     }
-
+quote
+    {
+        text-align: center;
+    }
