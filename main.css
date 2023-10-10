@@ -1,69 +1,104 @@
-*
-    {
-        margin: 0;
-        padding: 0;
-    }
-body
-    {
-        width: 80%;
-        background-color: white;
-        margin: 10px auto;
-        background-color: lightseagreen;
-       
-    }
-h1
-    {
-        padding: 1em;
-    }
-h2
-    {
-        padding: 1em;
-    }
-header
-    {
-        text-align: center;
-        background-color: plum;
-    }
-#nav_menu ol
-    {
-        list-style-type: none;
-        padding: 1em 0;
-        text-align: center;
-        background-color: aquamarine;
-        color: white;
+body 
+{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black; 
     
-    }
-#nav_menu ol li
-    {
-        display: inline;
-        padding: 0 2em;
-    }
-#nav_menu ol li a.current
-    {
-        text-decoration: none;
-    }
-main   
-    {
-        height: 360px;
-        width: 65%;
-        float: left;
-       background-color: plum;
-        text-align: center;
-    }
-aside
-    {
-        height: 360px;
-        width: 33%;
-        float: right;
-        text-align: left;
-        background-color: aquamarine;
-        color: black;
-    }
-footer
-    {
-        clear: both;
-       
-    }
+    max-width: 80%;
+    margin: auto;
+    background-color: lightgreen;
+    
+}
+
+header 
+{
+    background-color: lightseagreen;
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+
+h1 {
+   
+    text-align: center;
+    padding: 1em;
+   
+}
+
+h2
+{
+    text-align: center;
+    padding: 1em;
+}
+
+ol 
+{
+    
+    line-height: 1;
+    
+}
+
+footer 
+{
+    clear: both;
+    text-align: left;
+    background-color: lightgreen;
+    font-size: small;
+    padding-left: 45px;
+    border-radius: 0 0 25px 25px;
+}
+
+#nav_menu ol
+{
+    list-style-type: none;
+    padding: 1em 0;
+    text-align: center;
+    background-color: lightseagreen;
+    color: white;
+}
+
+#nav_menu ol li {
+    padding: 0 2em;
+    display: inline;
+}
+
+#nav_menu ol li a.current 
+{
+    text-align: center;
+    display: block;
+    width: 100px;
+    padding: 1em 0;
+    background-color: white;
+    color:black;
+    font-weight: bold;
+    border-right: 2px solid white;
+}
+
+#nav_menu ol li a.active
+{
+    background-color: red;
+}
+
+#nav_menu ol li a:hover
+{
+    text-decoration: none;
+    background-color: red;
+    color: black;
+}
+
+main 
+{
+    float: left;
+    width: 45%;
+    padding-left: 10px;
+}
+
+aside 
+{
+    float: right;
+    width: 50%;
+    background-color: azure;
+    padding-left: 10px;
+}
+
 quote
     {
         text-align: center;
